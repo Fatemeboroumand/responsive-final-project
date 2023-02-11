@@ -1,7 +1,15 @@
 :root {
   --primary-font: "Playfair Display", serif;
   --secondry-font: "Poppins", sans-serif;
+  --secondry-color: #35495e;
+  --defuilt-color: #e0ffcd;
+  --third-color: #347474;
 }
+
+body {
+  font-family: var(--secondry-font);
+}
+
 .hero {
   text-align: center;
   background: linear-gradient(to right, rgb(52, 232, 158), rgb(15, 52, 67));
@@ -14,6 +22,12 @@
   font-family: var(--primary-font);
   font-size: 96px;
   font-weight: bold;
+}
+
+p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
 }
 
 .my-btn {
@@ -32,4 +46,105 @@
 .hero h3 {
   font-size: 36px;
   margin: 0;
+}
+
+img {
+  background-color: var(--defuilt-color);
+}
+
+.btn-branding-outline {
+  color: var(--third-color);
+  border: 1px solid var(--third-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.about-section-content {
+  margin: 30px;
+}
+h4 {
+  font-size: 48px;
+  font-family: var(--primary-font);
+  font-weight: bold;
+}
+
+footer {
+  margin: 60px 0;
+}
+footer .contact-box {
+  background: var(--defuilt-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--secondry-color);
+  background: var(--defuilt-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background: var(--secondry-color);
+}
+
+.content-container {
+  padding: 160px 20px;
+}
+
+.content {
+  margin: 30px;
+}
+.content h1 {
+  font-size: 64px;
+  line-height: 80px;
+  color: black;
+  font-family: var(--primary-font);
+  font-weight: bold;
+}
+
+.logo {
+  max-height: 40px;
+}
+
+nav a {
+  color: rgb(39, 33, 66);
+  text-decoration: none;
+  transition: all 100ms ease-in-out 0s;
+}
+
+nav ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+nav li {
+  display: inline;
+  line-height: 42px;
+  margin-left: 15px;
+  list-style: none;
+}
+
+.active {
+  color: var(--third-color);
+}
+
+.logo-img {
+  background-color: white;
 }
