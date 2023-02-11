@@ -32,6 +32,11 @@ body {
   margin-bottom: 40px;
 }
 
+h2 {
+  font-family: var(--primary-font);
+  font-weight: bold;
+  font-size: 48px;
+}
 p {
   font-weight: normal;
   font-size: 16px;
@@ -67,6 +72,10 @@ img {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+
+.btn-branding-outline:hover {
+  background: var(--defuilt-color);
 }
 
 .about-section-content {
@@ -127,6 +136,12 @@ footer .social-links a:hover {
   font-weight: bold;
 }
 
+.content h2 {
+  font-size: 18px;
+  font-family: var(--secondry-font);
+  font-weight: bold;
+}
+
 .logo {
   max-height: 40px;
 }
@@ -155,4 +170,21 @@ nav li {
 
 .logo-img {
   background-color: white;
+}
+
+@media (max-width: 900px) {
+  .hero {
+    padding: 80px 20px;
+  }
+  .hero h1 {
+    font-size: 44px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 44px;
+  }
+  .content1 {
+    text-align: center;
+    padding: 0px;
+  }
 }
