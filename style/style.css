@@ -187,4 +187,11 @@ nav li {
     text-align: center;
     padding: 0px;
   }
+  .content h1 {
+    font-size: 44px;
+    line-height: 1.3;
+  }
+  .about-section-content {
+    text-align: center;
+  }
 }
