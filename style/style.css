@@ -146,6 +146,10 @@ footer .social-links a:hover {
   max-height: 40px;
 }
 
+nav {
+  padding: 20px 0 0;
+}
+
 nav a {
   color: rgb(39, 33, 66);
   text-decoration: none;
@@ -164,8 +168,15 @@ nav li {
   list-style: none;
 }
 
-.active {
+nav li a:hover {
   color: var(--third-color);
+  font-size: 24px;
+}
+
+.active a {
+  color: var(--third-color);
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .logo-img {
@@ -194,6 +205,9 @@ nav li {
   .content-container {
     text-align: center;
     padding: 30px;
+  }
+  .content {
+    margin: 0;
   }
   .about-section-content {
     text-align: center;
