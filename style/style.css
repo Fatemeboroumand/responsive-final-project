@@ -24,6 +24,14 @@ body {
   font-weight: bold;
 }
 
+.hero p {
+  font-family: var(--primary-font);
+  font-weight: normal;
+  line-height: 1.5;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
 p {
   font-weight: normal;
   font-size: 16px;
